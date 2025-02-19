@@ -42,7 +42,7 @@ h3{ position:relative;
 .move-svg {
     position: absolute; /* or relative, depending on your layout */
     top: 20vh; /* Adjust as needed */
-    left: 30vw; /* Adjust as needed */
+    left: 40vw; /* Adjust as needed */
     width: 50%; /* Adjust as needed */
     height: 50%; /* Adjust as needed */
 }
