@@ -9,10 +9,10 @@ body {
     overflow: scroll;
 }
 
-svg {
+/* svg {
     width: 50%;
     height: 50%;
-}
+} */
 
 .text-c {
     /* display: flex; */
@@ -23,8 +23,8 @@ svg {
 }
 h1 {
     position: relative;
-    /* top: 17vh;
-    left: 16.2vw; */
+    top: 30%;
+    /*left: 16.2vw; */
     justify-content: center;
     align-items: center;
     font-weight: 400;
@@ -37,8 +37,8 @@ h1 {
 h2 {
     /* display:flex; */
     position: relative;
-    /* top: 35vh;
-    left: 35vw; */
+     top: 35%;
+    /*left: 35vw; */
     text-align: center;
     /* justify-content: center;
     align-items: center; */
@@ -58,17 +58,10 @@ h3{ position:relative;
     color: white;
     
 }
-.move-svg {
-    position: absolute; /* or relative, depending on your layout */
-    top: 20vh; /* Adjust as needed */
-    left: 40vw; /* Adjust as needed */
-    width: 50%; /* Adjust as needed */
-    height: 50%; /* Adjust as needed */
-}
 
 #dragon-head {
     position: absolute;
-    top: 38%;
+    top: 20%;
     left: 25%;
     transform: translate(-50%, -50%);
     width: 50%; /* Adjust as needed */
@@ -89,5 +82,5 @@ h3{ position:relative;
     margin: 0 auto;
     display: block;
   
-  
 }
+/* settings for mobilelayout */
