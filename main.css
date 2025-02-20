@@ -68,8 +68,8 @@ h3{ position:relative;
 
 #dragon-head {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 38%;
+    left: 25%;
     transform: translate(-50%, -50%);
     width: 50%; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
@@ -79,7 +79,15 @@ h3{ position:relative;
 }
 
 #mail{
-   transform: scale(.2);
+   transform: scale(.1);
    fill: white;
-   
+   position: absolute;
+    top: 69%;
+    left: 2%;
+    width: 50%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto;
+    display: block;
+  
+  
 }
