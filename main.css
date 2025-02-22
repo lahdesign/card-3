@@ -73,7 +73,7 @@ h3{
 }
 
 #mail{
-   transform: scale(.1);
+   /* transform: scale(.1); */
    fill: white;
    position: absolute;
     /* top: 69%; */
@@ -86,16 +86,47 @@ h3{
 }
 
 .icon-container {
-    container{
-        width:60%vw;
-        height:100px;
-        position: fixed;
-        bottom:0;
-        left:0px;
-        background-color: rgba(244, 236, 244, 0.358);
-        display: grid;
-        grid-template-columns: repeat(1fr, 10fr);
-        grid-row: auto;
+    width: 70%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 25px;
+    background-color: rgba(244, 236, 244, 0.358);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-row: 1fr;
+    justify-content: center;
+    grid-gap:20px;
+
+}
+/* trying to adjust the size of the svg */
+.icon-container a svg {
+    width: 15%; 
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the SVG */
+}
+
+/* settings for mobilelayout */
+
+@media (max-width: 900px) {
+    body {
+        font-size: 0.8em; /* Adjust the base font size as needed */
+    }
+
+    h1 {
+        font-size: 60px; /* Adjust the font size for h1 */
+    }
+
+    h2 {
+        font-size: 40px; /* Adjust the font size for h2 */
+    }
+
+    h3 {
+        font-size: 20px; /* Adjust the font size for h3 */
+    }
+
+    .icon-container a svg {
+        width: 10%; /* Adjust the width to make it smaller */
     }
 }
-/* settings for mobilelayout */
